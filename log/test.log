@@ -1,0 +1,301 @@
+2022-11-24 Thu 05:39:00 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-11-24 Thu 05:39:16 recorder_main.py[line:108] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/05_39_16.h264
+2022-12-01 Thu 19:15:42 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 19:16:20 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 19:25:20 log_generate.py[line:22] DEBUG Log System Started
+2022-12-01 Thu 19:25:36 recorder_main.py[line:102] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/19_25_36.h264
+2022-12-01 Thu 19:59:51 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:24:19 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:24:26 recorder_main.py[line:109] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_24_26.h264
+2022-12-01 Thu 20:25:54 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:25:56 recorder_main.py[line:109] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_25_56.h264
+2022-12-01 Thu 20:26:44 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:27:21 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:27:28 recorder_main.py[line:109] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_27_28.h264
+2022-12-01 Thu 20:28:29 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:28:34 recorder_main.py[line:110] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_28_34.h264
+2022-12-01 Thu 20:29:17 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:29:22 recorder_main.py[line:111] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_29_22.h264
+2022-12-01 Thu 20:31:02 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:31:07 recorder_main.py[line:111] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_31_07.h264
+2022-12-01 Thu 20:34:10 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:34:13 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_34_13.h264
+2022-12-01 Thu 20:35:09 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:35:10 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_35_10.h264
+2022-12-01 Thu 20:35:32 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_35_32.h264
+2022-12-01 Thu 20:36:01 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_36_01.h264
+2022-12-01 Thu 20:37:30 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:41:28 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:41:57 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_41_57.h264
+2022-12-01 Thu 20:42:33 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_42_33.h264
+2022-12-01 Thu 20:43:09 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_43_09.h264
+2022-12-01 Thu 20:45:19 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:45:53 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_45_53.h264
+2022-12-01 Thu 20:46:19 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_46_19.h264
+2022-12-01 Thu 20:47:31 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:47:41 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:48:00 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:48:05 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_48_05.h264
+2022-12-01 Thu 20:50:10 log_generate.py[line:22] DEBUG [32mLog System Started
+2022-12-01 Thu 20:51:21 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_51_21.h264
+2022-12-01 Thu 20:51:46 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_51_46.h264
+2022-12-01 Thu 20:54:10 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/20_54_10.h264
+2023-01-09 Mon 04:16:38 log_generate.py[line:22] DEBUG [32mLog System Started
+2023-01-09 Mon 04:16:40 recorder_main.py[line:112] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 10000 --qt-preview -o /home/pi/camera_app/output/raw_video/04_16_40.h264
+2023-01-25 Wed 04:55:42 log_generate.py[line:22] DEBUG [32mLog System Started
+2023-01-26 Thu 17:01:24 recorder_main.py[line:130] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/17_01_24.h264
+2023-01-29 Sun 00:59:45 recorder_main.py[line:130] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/00_59_45.h264
+2023-01-29 Sun 01:19:47 recorder_main.py[line:130] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_19_47.h264
+2023-01-29 Sun 01:25:04 recorder_main.py[line:130] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_25_04.h264
+2023-01-29 Sun 06:24:59 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:24:59 log_generate.py [line:35] DEBUG [32mThis is debug message[39m
+2023-01-29 Sun 06:24:59 log_generate.py [line:36] INFO This is info message
+2023-01-29 Sun 06:24:59 log_generate.py [line:37] WARNING This is warning message
+2023-01-29 Sun 06:24:59 log_generate.py [line:38] CRITICAL Programme Stopped!
+2023-01-29 Sun 06:25:22 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:25:22 log_generate.py [line:35] DEBUG [32mThis is debug message[39m
+2023-01-29 Sun 06:25:22 log_generate.py [line:36] INFO This is info message
+2023-01-29 Sun 06:25:22 log_generate.py [line:37] WARNING This is warning message
+2023-01-29 Sun 06:25:22 log_generate.py [line:38] CRITICAL Programme Stopped!
+2023-01-29 Sun 06:25:31 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:25:31 log_generate.py [line:35] DEBUG [32mThis is debug message[39m
+2023-01-29 Sun 06:25:31 log_generate.py [line:36] INFO This is info message
+2023-01-29 Sun 06:25:31 log_generate.py [line:37] WARNING This is warning message
+2023-01-29 Sun 06:26:18 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:26:18 log_generate.py [line:35] DEBUG [32mThis is debug message[39m
+2023-01-29 Sun 06:26:18 log_generate.py [line:36] INFO This is info message
+2023-01-29 Sun 06:26:18 log_generate.py [line:37] WARNING This is warning message
+2023-01-29 Sun 06:35:26 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:36:42 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:37:09 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 300000 --qt-preview -o /home/pi/camera_app/output/raw_video/06_37_09.h264
+2023-01-29 Sun 06:44:02 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:44:14 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/06_44_14.h264
+2023-01-29 Sun 06:45:02 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:45:10 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/06_45_10.h264
+2023-01-29 Sun 06:46:34 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:46:42 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/06_46_42.h264
+2023-01-29 Sun 06:50:10 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:50:17 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/06_50_17.h264
+2023-01-29 Sun 06:50:46 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:50:52 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/06_50_52.h264
+2023-01-29 Sun 06:58:04 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:58:08 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_29_2023_06_58_08.h264
+2023-01-29 Sun 06:59:18 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 06:59:20 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_29_2023_06_59_20.h264
+2023-01-29 Sun 07:59:55 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_29_2023_07_59_55.h264
+2023-01-29 Sun 09:06:17 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 09:06:20 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_29_2023_09_06_20.h264
+2023-01-29 Sun 10:31:06 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 11:09:28 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-29 Sun 11:09:30 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_29_2023_11_09_30.h264
+2023-01-30 Mon 06:35:02 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-30 Mon 06:59:11 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_30_2023_06_59_11.h264
+2023-01-30 Mon 07:19:42 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-30 Mon 07:19:46 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_30_2023_07_19_46.h264
+2023-01-30 Mon 09:50:42 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-30 Mon 09:50:44 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_30_2023_09_50_44.h264
+2023-01-30 Mon 09:59:07 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_30_2023_09_59_07.h264
+2023-01-30 Mon 11:57:05 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_30_2023_11_57_05.h264
+2023-01-30 Mon 19:27:17 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-30 Mon 19:59:32 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_30_2023_19_59_32.h264
+2023-01-30 Mon 21:55:10 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_30_2023_21_55_10.h264
+2023-01-31 Tue 00:07:00 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_00_07_00.h264
+2023-01-31 Tue 02:21:46 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_02_21_46.h264
+2023-01-31 Tue 16:42:03 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 16:42:35 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 16:42:44 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_16_42_44.h264
+2023-01-31 Tue 16:48:25 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 16:48:57 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_16_48_57.h264
+2023-01-31 Tue 16:49:36 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 16:49:51 recorder_main.py [line:141] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_16_49_51.h264
+2023-01-31 Tue 16:53:28 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 16:53:40 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 26 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_16_53_40.h264
+2023-01-31 Tue 16:54:57 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 16:55:12 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 22 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_16_55_12.h264
+2023-01-31 Tue 16:56:27 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 16:56:36 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 30 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_16_56_36.h264
+2023-01-31 Tue 17:08:07 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:08:52 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:09:04 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_17_09_04.h264
+2023-01-31 Tue 17:10:27 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:10:32 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 35 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_17_10_32.h264
+2023-01-31 Tue 17:10:50 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 35 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_17_10_50.h264
+2023-01-31 Tue 17:11:36 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:11:53 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:11:57 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 21 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_17_11_57.h264
+2023-01-31 Tue 17:13:28 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:13:30 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 15 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_17_13_30.h264
+2023-01-31 Tue 17:46:48 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:46:51 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 15 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_17_46_51.h264
+2023-01-31 Tue 17:48:56 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 17:48:59 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_17_48_59.h264
+2023-01-31 Tue 18:01:37 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 18:01:46 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 18:02:35 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 15 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_18_02_35.h264
+2023-01-31 Tue 18:16:33 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 15 -t 180000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_18_16_33.h264
+2023-01-31 Tue 18:23:25 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-01-31 Tue 18:23:40 recorder_main.py [line:142] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 15 -t 300000 --qt-preview -o /home/pi/camera_app/output/raw_video/01_31_2023_18_23_40.h264
+2023-03-09 Thu 16:24:35 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 16:32:52 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 16:41:40 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 16:42:26 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 16:42:32 recorder_main.py [line:151] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_16_42_32.h264
+2023-03-09 Thu 17:28:50 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 17:29:08 recorder_main.py [line:151] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 15 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_17_29_08.h264
+2023-03-09 Thu 17:30:36 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 17:31:02 recorder_main.py [line:151] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_17_31_02.h264
+2023-03-09 Thu 17:38:59 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 17:39:09 recorder_main.py [line:151] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_17_39_09.h264
+2023-03-09 Thu 18:02:19 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 18:07:01 recorder_main.py [line:151] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_07_01.h264
+2023-03-09 Thu 18:14:59 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 18:15:11 recorder_main.py [line:151] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 0 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_15_11.h264
+2023-03-09 Thu 18:34:07 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 18:34:56 recorder_main.py [line:151] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_34_56.h264
+2023-03-09 Thu 18:50:59 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 18:51:11 recorder_main.py [line:154] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_51_11.h264
+2023-03-09 Thu 18:53:48 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 18:54:22 recorder_main.py [line:154] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 15 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_54_22.h264
+2023-03-09 Thu 18:56:55 recorder_main.py [line:154] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 120000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_56_55.h264
+2023-03-09 Thu 18:57:04 recorder_main.py [line:154] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_57_04.h264
+2023-03-09 Thu 18:59:40 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 18:59:52 recorder_main.py [line:154] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 23 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_18_59_52.h264
+2023-03-09 Thu 19:02:08 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:02:39 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:02:48 recorder_main.py [line:154] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_02_48.h264
+2023-03-09 Thu 19:06:12 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:06:21 recorder_main.py [line:154] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_06_21.h264
+2023-03-09 Thu 19:08:47 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:08:54 recorder_main.py [line:155] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_08_54.h264
+2023-03-09 Thu 19:12:38 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:12:46 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_12_46.h264
+2023-03-09 Thu 19:14:19 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_14_19.h264
+2023-03-09 Thu 19:15:57 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:16:09 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_16_09.h264
+2023-03-09 Thu 19:19:12 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_19_12.h264
+2023-03-09 Thu 19:22:57 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_22_57.h264
+2023-03-09 Thu 19:26:03 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:26:44 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-09 Thu 19:59:59 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_59_59.h264
+2023-03-09 Thu 21:00:00 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_21_00_00.h264
+2023-03-09 Thu 21:59:01 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_21_59_01.h264
+2023-03-09 Thu 22:59:02 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_22_59_02.h264
+2023-03-09 Thu 23:59:03 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_23_59_03.h264
+2023-03-10 Fri 00:59:05 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_00_59_05.h264
+2023-03-10 Fri 01:59:06 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_01_59_06.h264
+2023-03-10 Fri 02:59:07 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_02_59_07.h264
+2023-03-10 Fri 03:59:08 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_03_59_08.h264
+2023-03-10 Fri 04:59:10 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_04_59_10.h264
+2023-03-10 Fri 05:59:11 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_05_59_11.h264
+2023-03-10 Fri 06:59:12 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_06_59_12.h264
+2023-03-10 Fri 07:59:13 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_07_59_13.h264
+2023-03-10 Fri 08:59:14 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_08_59_14.h264
+2023-03-10 Fri 09:59:15 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_09_59_15.h264
+2023-03-10 Fri 10:59:16 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_10_59_16.h264
+2023-03-10 Fri 11:59:17 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_11_59_17.h264
+2023-03-10 Fri 12:59:18 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_12_59_18.h264
+2023-03-10 Fri 13:59:19 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_13_59_19.h264
+2023-03-10 Fri 14:59:20 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_14_59_20.h264
+2023-03-10 Fri 15:59:21 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_15_59_21.h264
+2023-03-10 Fri 16:59:22 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_16_59_22.h264
+2023-03-10 Fri 17:59:23 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_17_59_23.h264
+2023-03-10 Fri 18:59:24 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_18_59_24.h264
+2023-03-10 Fri 19:59:25 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_19_59_25.h264
+2023-03-10 Fri 20:59:26 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_20_59_26.h264
+2023-03-10 Fri 21:59:27 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_21_59_27.h264
+2023-03-10 Fri 22:59:28 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_22_59_28.h264
+2023-03-10 Fri 23:59:29 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_23_59_29.h264
+2023-03-11 Sat 00:59:30 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_00_59_30.h264
+2023-03-11 Sat 01:59:31 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_01_59_31.h264
+2023-03-11 Sat 02:59:32 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_02_59_32.h264
+2023-03-11 Sat 03:59:33 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_03_59_33.h264
+2023-03-11 Sat 04:59:34 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_04_59_34.h264
+2023-03-11 Sat 05:59:35 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_05_59_35.h264
+2023-03-11 Sat 06:59:36 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_06_59_36.h264
+2023-03-11 Sat 07:59:37 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_07_59_37.h264
+2023-03-11 Sat 08:59:38 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_08_59_38.h264
+2023-03-11 Sat 09:59:39 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_09_59_39.h264
+2023-03-11 Sat 10:59:40 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_10_59_40.h264
+2023-03-11 Sat 11:59:41 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_11_59_41.h264
+2023-03-11 Sat 12:59:42 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_12_59_42.h264
+2023-03-11 Sat 13:59:43 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_13_59_43.h264
+2023-03-11 Sat 14:59:44 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_14_59_44.h264
+2023-03-11 Sat 15:59:45 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_15_59_45.h264
+2023-03-11 Sat 16:59:46 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_16_59_46.h264
+2023-03-11 Sat 17:59:47 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_17_59_47.h264
+2023-03-11 Sat 18:59:48 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_18_59_48.h264
+2023-03-11 Sat 19:59:49 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_19_59_49.h264
+2023-03-11 Sat 20:59:50 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_20_59_50.h264
+2023-03-11 Sat 21:59:51 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_21_59_51.h264
+2023-03-11 Sat 22:59:52 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_22_59_52.h264
+2023-03-11 Sat 23:59:53 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_23_59_53.h264
+2023-03-12 Sun 00:59:54 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_00_59_54.h264
+2023-03-12 Sun 01:59:55 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_01_59_55.h264
+2023-03-12 Sun 02:59:56 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_02_59_56.h264
+2023-03-12 Sun 03:59:58 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_03_59_58.h264
+2023-03-12 Sun 04:59:59 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_04_59_59.h264
+2023-03-12 Sun 05:59:00 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_05_59_00.h264
+2023-03-12 Sun 06:59:01 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_06_59_01.h264
+2023-03-12 Sun 07:59:02 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_07_59_02.h264
+2023-03-12 Sun 08:59:03 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_08_59_03.h264
+2023-03-12 Sun 09:59:04 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_09_59_04.h264
+2023-03-12 Sun 10:59:05 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_10_59_05.h264
+2023-03-12 Sun 11:59:06 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_11_59_06.h264
+2023-03-12 Sun 12:59:07 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_12_59_07.h264
+2023-03-12 Sun 13:59:08 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_13_59_08.h264
+2023-03-12 Sun 14:59:09 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_14_59_09.h264
+2023-03-12 Sun 15:59:10 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_15_59_10.h264
+2023-03-12 Sun 16:59:11 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_16_59_11.h264
+2023-03-12 Sun 17:59:12 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_17_59_12.h264
+2023-03-12 Sun 18:59:13 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_18_59_13.h264
+2023-03-12 Sun 19:59:14 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_19_59_14.h264
+2023-03-12 Sun 20:59:15 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_20_59_15.h264
+2023-03-12 Sun 21:59:17 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_21_59_17.h264
+2023-03-12 Sun 22:59:18 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_22_59_18.h264
+2023-03-12 Sun 23:59:19 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_23_59_19.h264
+2023-03-13 Mon 00:59:20 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_00_59_20.h264
+2023-03-13 Mon 01:59:21 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_01_59_21.h264
+2023-03-13 Mon 02:59:22 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_02_59_22.h264
+2023-03-13 Mon 03:59:23 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_03_59_23.h264
+2023-03-13 Mon 04:59:24 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_04_59_24.h264
+2023-03-13 Mon 05:59:26 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_05_59_26.h264
+2023-03-13 Mon 06:59:27 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_06_59_27.h264
+2023-03-13 Mon 07:59:28 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_07_59_28.h264
+2023-03-13 Mon 08:59:30 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_08_59_30.h264
+2023-03-13 Mon 09:59:31 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_09_59_31.h264
+2023-03-13 Mon 10:59:32 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_10_59_32.h264
+2023-03-13 Mon 11:59:33 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_11_59_33.h264
+2023-03-13 Mon 12:59:34 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_12_59_34.h264
+2023-03-13 Mon 13:59:35 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_13_59_35.h264
+2023-03-13 Mon 14:59:36 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_14_59_36.h264
+2023-03-13 Mon 15:59:37 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_15_59_37.h264
+2023-03-13 Mon 16:59:38 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_16_59_38.h264
+2023-03-13 Mon 17:59:39 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_17_59_39.h264
+2023-03-13 Mon 18:59:40 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_18_59_40.h264
+2023-03-13 Mon 19:59:41 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_19_59_41.h264
+2023-03-13 Mon 20:59:43 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_20_59_43.h264
+2023-03-13 Mon 21:59:44 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_21_59_44.h264
+2023-03-13 Mon 22:59:45 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_22_59_45.h264
+2023-03-13 Mon 23:59:46 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_23_59_46.h264
+2023-03-14 Tue 00:59:47 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_00_59_47.h264
+2023-03-14 Tue 01:59:49 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_01_59_49.h264
+2023-03-14 Tue 02:59:50 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_02_59_50.h264
+2023-03-14 Tue 03:59:51 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_03_59_51.h264
+2023-03-14 Tue 04:59:52 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_04_59_52.h264
+2023-03-14 Tue 05:59:53 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_05_59_53.h264
+2023-03-14 Tue 06:59:54 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_06_59_54.h264
+2023-03-14 Tue 07:59:55 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_07_59_55.h264
+2023-03-14 Tue 08:59:56 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_08_59_56.h264
+2023-03-14 Tue 09:59:57 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_09_59_57.h264
+2023-03-14 Tue 10:59:58 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_10_59_58.h264
+2023-03-14 Tue 11:59:59 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_11_59_59.h264
+2023-03-14 Tue 12:59:00 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_12_59_00.h264
+2023-03-14 Tue 13:59:01 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_13_59_01.h264
+2023-03-14 Tue 14:59:02 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_14_59_02.h264
+2023-03-14 Tue 15:59:03 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_15_59_03.h264
+2023-03-19 Sun 06:37:37 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-19 Sun 06:38:03 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 0 --qt-preview -o /home/pi/camera_app/output/raw_video/03_19_2023_06_38_03.h264
+2023-03-25 Sat 04:52:33 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-25 Sat 04:52:42 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 0 --qt-preview -o /home/pi/camera_app/output/raw_video/03_25_2023_04_52_42.h264
+2023-03-31 Fri 09:02:40 log_generate.py [line:26] DEBUG [32mLog System Started[39m
+2023-03-31 Fri 09:03:05 recorder_main.py [line:156] INFO libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 60000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_31_2023_09_03_05.h264

@@ -1,0 +1,426 @@
+python3 ./recorder_pi/recorder_main.py
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_19_59_59.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_21_00_00.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_21_59_01.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_22_59_02.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_09_2023_23_59_03.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_00_59_05.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_01_59_06.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_02_59_07.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_03_59_08.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_04_59_10.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_05_59_11.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_06_59_12.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_07_59_13.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_08_59_14.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_09_59_15.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_10_59_16.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_11_59_17.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_12_59_18.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_13_59_19.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_14_59_20.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_15_59_21.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_16_59_22.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_17_59_23.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_18_59_24.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_19_59_25.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_20_59_26.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_21_59_27.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_22_59_28.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_10_2023_23_59_29.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_00_59_30.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_01_59_31.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_02_59_32.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_03_59_33.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_04_59_34.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_05_59_35.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_06_59_36.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_07_59_37.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_08_59_38.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_09_59_39.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_10_59_40.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_11_59_41.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_12_59_42.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_13_59_43.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_14_59_44.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_15_59_45.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_16_59_46.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_17_59_47.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_18_59_48.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_19_59_49.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_20_59_50.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_21_59_51.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_22_59_52.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_11_2023_23_59_53.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_00_59_54.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_01_59_55.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_02_59_56.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_03_59_58.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_04_59_59.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_05_59_00.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_06_59_01.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_07_59_02.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_08_59_03.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_09_59_04.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_10_59_05.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_11_59_06.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_12_59_07.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_13_59_08.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_14_59_09.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_15_59_10.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_16_59_11.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_17_59_12.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_18_59_13.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_19_59_14.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_20_59_15.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_21_59_17.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_22_59_18.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_12_2023_23_59_19.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_00_59_20.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_01_59_21.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_02_59_22.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_03_59_23.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_04_59_24.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_05_59_26.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_06_59_27.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_07_59_28.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_08_59_30.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_09_59_31.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_10_59_32.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_11_59_33.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_12_59_34.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_13_59_35.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_14_59_36.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_15_59_37.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_16_59_38.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_17_59_39.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_18_59_40.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_19_59_41.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_20_59_43.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_21_59_44.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_22_59_45.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_13_2023_23_59_46.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_00_59_47.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_01_59_49.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_02_59_50.h264
+1920
+1920 1080 25 /home/pi/camera_app/output/raw_video
+1200000
+libcamera-vid --save-pts timestamps.txt --height 1080 --width 1920 --framerate 25 -t 1200000 --qt-preview -o /home/pi/camera_app/output/raw_video/03_14_2023_03_59_51.h264
+1920
+1920

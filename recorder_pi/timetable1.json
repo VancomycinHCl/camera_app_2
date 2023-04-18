@@ -1,0 +1,38 @@
+{
+    "0": {
+        "startTime": "19:20:30",
+        "endTime": "19:20:40",
+        "height": "1080",
+        "width": "1920",
+        "H264_Folder": "--width",
+        "type": "libcamera-vid",
+        "enable": "true"
+    },
+    "1": {
+        "startTime": "17:50:00",
+        "endTime": "17:50:10",
+        "height": "1080",
+        "width": "1920",
+        "H264_Folder": "--width",
+        "type": "libcamera-vid",
+        "enable": "true"
+    },
+    "2": {
+        "startTime": "12:47:30",
+        "endTime": "12:47:40",
+        "height": "1080",
+        "width": "1920",
+        "H264_Folder": "--width",
+        "type": "libcamera-vid",
+        "enable": "true"
+    },
+    "3": {
+        "startTime": "15:33:30",
+        "endTime": "15:33:40",
+        "height": "1080",
+        "width": "1920",
+        "H264_Folder": "--width",
+        "type": "libcamera-still",
+        "enable": "true"
+    }
+}

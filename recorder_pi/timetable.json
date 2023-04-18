@@ -1,0 +1,14 @@
+{
+    "0" : {"startTime": "00:20:00","endTime": "00:20:00", "event": "libcamera-still"},
+    "1" : {"startTime": "00:20:00","endTime": "00:20:01", "event": "libcamera-still"},
+    "2" : {"startTime": "00:20:00","endTime": "12:20:01", "event": "libcamera-vid", "framerate":"26" , "width": "190"},
+    "3" : {"startTime": "00:20:00","endTime": "19:58:12", "event": "unknown"}
+}
+
+
+
+
+
+
+
+

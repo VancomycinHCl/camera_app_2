@@ -33,12 +33,16 @@ def readConfig(file):
     return (camera_config,path_config,other_config)
 
 def generateCommand_str(config_dict):
-    event_height = config_dict["height"]
-    event_width = config_dict["width"]
-    event_duration = config_dict["duration"]
-    event_height = event_height if type(event_height) == str else str(event_height)
-    event_width = event_width if type(event_width) == str else str(event_width)
-    event_duration = event_duration if type(event_duration) == str else str(event_duration)
+    event_height     = config_dict["height"]
+    event_width      = config_dict["width"]
+    event_duration   = config_dict["duration"]
+    event_focus      = config_dict["lens-position"]
+
+    event_height     = event_height   if type(event_height) == str    else str(event_height)
+    event_width      = event_width    if type(event_width) == str     else str(event_width)
+    event_duration   = event_duration if type(event_duration) == str  else str(event_duration)
+    event_focus      = event_focus    if type(event_focus) != str     else event_focus
+
     cmd_list = ["libcamera-vid", "--save-pts timestamps.txt"]
     if "type" in config_dict.keys():
         cmd_list[0] = cmd_list[0] if config_dict["type"] == "libcamera-vid" else "libcamera-still"
@@ -71,6 +75,14 @@ def generateCommand_str(config_dict):
         cmd_list.append(root_path_str + "/" + video_path_str + "/" + filename_str + ".h264")
     else:
         cmd_list.append(root_path_str + "/" + video_path_str + "/" + filename_str + ".jpg")
+
+    if event_focus is None:
+        cmd_list.append("--autofocus-mode=auto")
+    else:
+        event_focus = event_focus if type(event_focus) == str else str(event_focus)
+        cmd_list.append("--autofocus-mode=manual")
+        cmd_list.append("--lens-position="+event_focus)
+
     cmd_str = " ".join(cmd_list)
     return CommandInstance(payload=cmd_str,type="bash_cmd")
 
@@ -85,15 +97,8 @@ def CaptureVideo(commandInstance) -> (str,str) or None:
     """
 
     if commandInstance.type == "bash_cmd":
-        #root_path_str = commandInstance.config["root_path"]
-        #video_path_str = commandInstance.config["raw_path"]
-        #filename_str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
-        #dest_path = " ".join(root_path_str+"/"+video_path_str+"/"+filename_str+".h264")
-        #src_path = "*.h264"
         os.system(commandInstance.payload)
-        #os.system("mv "+dest_path+" "+src_path)
         return
-        #return (filename_str,dest_path)
     return
 
 

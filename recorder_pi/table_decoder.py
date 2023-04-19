@@ -68,7 +68,7 @@ def timeblock_dict2json_dict(blockKeyVal:str,blockDictVal:dict) -> tuple:
     jsonDict[TIMEBLOCK_KET_ENABLE]   = enable
     return (blockKeyVal,jsonDict)
 
-def blockdict_list_encode_jsonfile(jsonDictList:list,fileName:str="timetable.json") -> None:
+def blockdict_list_encode_jsonfile(jsonDictList:list,fileName:str="timetable1.json") -> None:
     with open(fileName,"w+") as fp:
         finalJsonDict = {}
         for singleEventDict in jsonDictList:
@@ -145,7 +145,7 @@ def json_dict2timeblock_dict(jsonKeyVal:str,jsonDictVal:dict) -> dict or None:
         returnDict[TIMEBLOCK_KET_OUTPUT] = ""
     return returnDict
 
-def jsonfile_decode_blockdict_list(fileName:str="timetable.json") -> list:
+def jsonfile_decode_blockdict_list(fileName:str="timetable1.json") -> list:
     with open(fileName,"r") as fp:
         a = json.load(fp)
         jsonKeyList = a.keys()

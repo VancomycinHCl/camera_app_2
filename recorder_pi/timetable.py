@@ -187,9 +187,9 @@ class TimeBlock():
 #     def addBlockEvent(self,timeBlock:TimeBlock)->None:
 #         self.__timeHashTable[timeBlock.startTime] = timeBlock
 #
-#     def readTimetableFromFile(self,fileName:str="timetable.json"):
+#     def readTimetableFromFile(self,fileName:str="timetable1.json"):
 #         a = None
-#         with open("timetable.json", "r") as fp:
+#         with open("timetable1.json", "r") as fp:
 #             a = json.load(fp)
 #         print(a.keys())
 #

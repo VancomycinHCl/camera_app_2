@@ -24,7 +24,10 @@ class DelegateTimeEdit_startTimeBox(QtWidgets.QStyledItemDelegate):
 
     def setEditorData(self, editor: QtWidgets.QTimeEdit, index: QtCore.QModelIndex) -> None:
         if index.column() == 1:
-            t = QtCore.QTime.fromString("12:30:30")
+            try:
+                t = index.data(role=QtCore.Qt.EditRole)
+            except:
+                t = QtCore.QTime.fromString("12:30:30")
             editor.setTime(t)
             pass
 
@@ -43,7 +46,11 @@ class DelegateQSpinBox_durationBox(QtWidgets.QStyledItemDelegate):
         return locale.toString(value)
     def setEditorData(self, editor: QtWidgets.QSpinBox, index: QtCore.QModelIndex) -> None:
             if index.column() == 2:
-                editor.setValue(0)
+                try:
+                    d = index.data(QtCore.Qt.EditRole)
+                except:
+                    d = 0
+                editor.setValue(d)
             return
 
 class DelegateQComboBox_eventBox(QtWidgets.QStyledItemDelegate):
@@ -238,7 +245,7 @@ class Ui_MainWindow(object):
         self.checkBox_manualFocus = QtWidgets.QCheckBox(self.centralwidget)
         self.checkBox_manualFocus.setGeometry(QtCore.QRect(20, 150, 151, 19))
         self.checkBox_manualFocus.setObjectName("checkBox_manualFocus")
-        self.spinBox_cameraDistance = QtWidgets.QSpinBox(self.centralwidget)
+        self.spinBox_cameraDistance = QtWidgets.QDoubleSpinBox(self.centralwidget)
         self.spinBox_cameraDistance.setGeometry(QtCore.QRect(310, 145, 81, 31))
         self.spinBox_cameraDistance.setObjectName("spinBox_cameraDistance")
         self.cameraDistance_label = QtWidgets.QLabel(self.centralwidget)
@@ -281,6 +288,7 @@ class Ui_MainWindow(object):
         self.pushButton_readTable.clicked.connect(MainWindow.readTableFromFile)
         self.pushButton_saveTable.clicked.connect(MainWindow.saveTableToFile)
         self.checkBox_manualFocus.clicked.connect(MainWindow.manualFocusTrig)
+        self.spinBox_cameraDistance.valueChanged.connect(MainWindow.manualFocusTrig)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         MainWindow.setTabOrder(self.HeightBox, self.WeightBox)
         MainWindow.setTabOrder(self.WeightBox, self.filePath_H264)

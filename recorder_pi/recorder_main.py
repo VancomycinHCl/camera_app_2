@@ -30,7 +30,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             "duration": "0",
             "iniFile": None,
             "framerate": None,
-            "lens_distance":None
+            "lens-position":None
         }
         self.actionOpen_Setting_File.triggered.connect(lambda: self.Open_Setting_File())
         self.actionSave_Settings.triggered.connect(lambda: self.Save_Setting_File())
@@ -329,23 +329,10 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.timeTable_cusMod.SaveTableToJson()
         pass
 
-    def clearTable(self):
-        print("asdf3")
-        pass
-
-    def deleteEventFromTable(self):
-        print("asdf2")
-        pass
-
-    def addEventToTable(self):
-        print("asdf1")
-        pass
-
     def genCmdInstance(self):
         a = self.settings
-        #a1 = A.generateCommand_str_classInline(a)
         a1 = A.generateCommand_str(a)
-        # logging.info(a1.payload)
+        logging.info(a1.payload)
         return a1
         pass
 
@@ -367,12 +354,16 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         return
 
     def manualFocusTrig(self):
-        if self.checkBox_manualFocus:
-            logging.debug("Manual focus status changed into True!")
+        print(self.checkBox_manualFocus.isChecked())
+        if self.checkBox_manualFocus.isChecked():
+            logging.debug("Manual focus status changed into True! Manually Focus!")
             camera_distance = self.spinBox_cameraDistance.value()
             lens_distance = A.cameraDist2lensDist(camera_distance)
-            lens_distance = str(lens_distance)
-            self.settings['lens_distance'] = lens_distance
+            logging.debug("lens distance=%f"%(lens_distance))
+            self.settings['lens-position'] = lens_distance
+        elif not self.checkBox_manualFocus.isChecked():
+            logging.debug("Manual focus status changed into True! Auto Focus!")
+            self.settings['lens-position'] = None
 
 
 if __name__ == "__main__":

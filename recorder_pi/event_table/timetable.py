@@ -1,12 +1,8 @@
 #!/bin/python3
-import json
-from datetime import datetime,timedelta,time
-from json import tool
-from PyQt5 import QtCore, QtWidgets, QtGui
-from PyQt5.QtCore import Qt,pyqtSignal,pyqtSlot,QTime
-import re
-from cam_factory import *
-from table_decoder import  *
+from PyQt5 import QtCore
+from PyQt5.QtCore import pyqtSlot,QTime
+from recorder_pi.event_table.cam_factory import *
+from recorder_pi.event_table.table_decoder import  *
 
 """
 这些是您的Dissdafadfcord账号 ********32@**.**.***的备用码。请妥善保管！

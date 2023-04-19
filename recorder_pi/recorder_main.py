@@ -4,14 +4,13 @@ import os
 import PyQt5.QtCore, PyQt5.QtWidgets
 
 from record import *
-# from record_new_dele import *
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import QTimer
 import driver.camera_test as A
 import log_generate as log
 from datetime import datetime
-from timetable import TimeTable,TimeBlock
+from recorder_pi.event_table.timetable import TimeTable
 
 
 class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -368,7 +367,6 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
 if __name__ == "__main__":
     import sys
-    import threading
 
     sys.path.append('../')
     #import FTP_service.server

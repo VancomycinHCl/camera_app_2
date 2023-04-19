@@ -10,9 +10,6 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-# import PyQt5.QtWidgets.QGridLayout
-
-
 class DelegateTimeEdit_startTimeBox(QtWidgets.QStyledItemDelegate):
     def __init__(self):
         super(DelegateTimeEdit_startTimeBox, self).__init__()
@@ -216,19 +213,9 @@ class Ui_MainWindow(object):
 
         for i in range(0,self.tableWidget_timeTableRowNumber_int):
             self.qtable_RowInit(i)
-            pass
 
 
 
-
-
-
-        # self.pushButton_AddRecord = QtWidgets.QPushButton(self.centralwidget)
-        # self.pushButton_AddRecord.setGeometry(QtCore.QRect(470, 330, 131, 31))
-        # self.pushButton_AddRecord.setObjectName("pushButton_AddRecord")
-        # self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
-        # self.pushButton_2.setGeometry(QtCore.QRect(610, 330, 131, 31))
-        # self.pushButton_2.setObjectName("pushButton_2")
         self.label_statusTitile = QtWidgets.QLabel(self.centralwidget)
         self.label_statusTitile.setGeometry(QtCore.QRect(1040, 380, 72, 15))
         self.label_statusTitile.setObjectName("label_statusTitile")

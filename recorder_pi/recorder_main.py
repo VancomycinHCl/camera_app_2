@@ -112,10 +112,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.WeightBox.setValue(int(self.settings["width"]))
         self.FPS.setValue(int(self.settings["framerate"]))
         self.filePath_H264.setText(path_config["root_path"] + "/" + path_config["raw_path"])
-        self.filePath_MP4.setText(path_config["root_path"] + "/" + path_config["mp4_path"])
-        self.checkBox_autoConvert.setChecked(self.autoConversion_flag)
         self.filePath_H264.home(False)
-        self.filePath_MP4.home(False)
         pass
 
     def Save_Setting_File(self):
@@ -209,22 +206,8 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 print(E)
         os.system("sudo cp -r " + "/home/pi/camera_app/output/raw_video/*.h264" + " /media/pi/CFBA-4424/")
 
-        # if self.autoConversion_flag:
-        #     destFileName = rawFileName+".mp4"
-        #     print(destFileName)
-        #     convertCmd = ["ffmpeg","-r",str(self.settings["framerate"]),"-i",rawFilePath,destFileName]
-        #     convertCmd = " ".join(convertCmd)
-        #     print(convertCmd)
-        #     os.system(convertCmd)
-
     def applyTable(self):
-        #a = self.tableWidget_timeTable.item(1,1).text()
-        #b = self.tableWidget_timeTable.item(1,2).text()
-        #print(a,b,sep=";")
-        # for i in self.tableWidget_timeBoxInColumn2_TimeWidgetList:
-        #     print(i.time().toPyTime().hour,":",i.time().toPyTime().minute,":",i.time().toPyTime().second,sep="")
         self.timeTable_cusMod.RefreshFromUI(self.tableWidget_timeTable.model())
-        pass
 
     def readTableFromFile(self):
         # self.tableWidget_timeTable.item(1,1).setData()
@@ -238,7 +221,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     def generateMenu(self,pos:QtCore.QPoint):
         tableModel = self.tableWidget_timeTable.model()
-        tableModel.blockSignals(True)
+        # tableModel.blockSignals(True)
         pos.setX(pos.x()+35)
         pos.setY(pos.y()+35)
         idx_list = self.tableWidget_timeTable.selectedItems()
@@ -344,12 +327,15 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         pass
 
     def clearTable(self):
+        print("asdf3")
         pass
 
     def deleteEventFromTable(self):
+        print("asdf2")
         pass
 
     def addEventToTable(self):
+        print("asdf1")
         pass
 
     def genCmdInstance(self):
@@ -377,7 +363,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.threadTimer.setSingleShot(True)
         return
 
-    def previewImme(self):
+    def manualFocusTrig(self):
         pass
 
 

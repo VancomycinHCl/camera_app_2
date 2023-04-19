@@ -21,7 +21,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.recordImme_flag = False
         self.showPreview_flag = False
         self.autoConversion_flag = False
-        # log.Log_Init()
+        self.logger = log.Log_Init()
         self.settings = {
             "H264_Folder": None,
             "MP4_Folder": None,
@@ -29,7 +29,8 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             "height": None,
             "duration": "0",
             "iniFile": None,
-            "framerate": None
+            "framerate": None,
+            "lens_distance":None
         }
         self.actionOpen_Setting_File.triggered.connect(lambda: self.Open_Setting_File())
         self.actionSave_Settings.triggered.connect(lambda: self.Save_Setting_File())
@@ -51,6 +52,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.settings = dictIn
 
     def applySettings(self) -> bool:
+        logging.info("Apply Setting Function Executed!")
         print(self.WeightBox.text())
         time_min = int(self.timeEdit_duration.time().toPyTime().minute)
         time_sec = int(self.timeEdit_duration.time().toPyTime().second)
@@ -67,6 +69,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             QMessageBox.warning(self,
                                 "Time Out Warning!",
                                 "Your time setting has Larger than potential recording period, which will cause access conflict on the device. Please set the video duration smaller than 1 hour")
+            logging.warning("An Unsuitable Time Duration was set! Please set another proper duration!")
             return False
         else:
             self.settings["duration"] = str((time_sec + time_min * 60) * 1000)
@@ -364,7 +367,12 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         return
 
     def manualFocusTrig(self):
-        pass
+        if self.checkBox_manualFocus:
+            logging.debug("Manual focus status changed into True!")
+            camera_distance = self.spinBox_cameraDistance.value()
+            lens_distance = A.cameraDist2lensDist(camera_distance)
+            lens_distance = str(lens_distance)
+            self.settings['lens_distance'] = lens_distance
 
 
 if __name__ == "__main__":

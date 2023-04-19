@@ -74,90 +74,6 @@ def generateCommand_str(config_dict):
     cmd_str = " ".join(cmd_list)
     return CommandInstance(payload=cmd_str,type="bash_cmd")
 
-def generateCommand_str_classInline(config_dict):
-    event_height    = config_dict["height"]
-    event_width     = config_dict["width"]
-    event_duration  = config_dict["duration"]
-    event_height    = event_height if type(event_height) == str else str(event_height)
-    event_width = event_width if type(event_width) == str else str(event_width)
-    event_duration = event_duration if type(event_duration) == str else str(event_duration)
-    cmd_list = ["libcamera-vid","--save-pts timestamps.txt"]
-    if "type" in config_dict.keys():
-        cmd_list[0] = cmd_list[0] if config_dict["type"] == "libcamera-vid" else "libcamera-still"
-    else:
-        pass
-    #camera_config,path_config,other_config = config_dict
-    cmd_list.append("--height")
-    cmd_list.append(event_height)
-    cmd_list.append("--width")
-    cmd_list.append(event_width)
-    if cmd_list[0] == "libcamera-vid":
-        cmd_list.append("--framerate")
-        cmd_list.append(config_dict["framerate"] if type(config_dict["framerate"])==str else str(config_dict["framerate"]))
-    else:
-        pass
-    cmd_list.append("-t")
-    cmd_list.append(event_duration)
-    if (config_dict["focus"] == "continue"):
-        pass
-        #cmd_list.append("--continue-autofocus")
-    if (config_dict["preview"]=="qt-preview"):
-        cmd_list.append("--qt-preview")
-    root_path_str = config_dict["root_path"]
-    video_path_str = config_dict["raw_path"]
-    filename_str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
-    cmd_list.append("-o")
-    if cmd_list[0] == "libcamera-vid":
-        cmd_list.append(root_path_str+"/"+video_path_str+"/"+filename_str+".h264")
-    else:
-        cmd_list.append(root_path_str+"/"+video_path_str +"/"+filename_str+".jpg")
-    cmd_str = " ".join(cmd_list)
-    #print(cmd_str)
-    return CommandInstance(payload=cmd_str,type="bash_cmd")
-
-def generateCommand_str_classInline(config_dict):
-    event_height = config_dict["height"]
-    event_width = config_dict["width"]
-    event_duration = config_dict["duration"]
-    event_height = event_height if type(event_height) == str else str(event_height)
-    event_width = event_width if type(event_width) == str else str(event_width)
-    event_duration = event_duration if type(event_duration) == str else str(event_duration)
-
-    cmd_list = ["libcamera-vid","--save-pts timestamps.txt"]
-    #camera_config,path_config,other_config = config_dict
-    if "type" in config_dict.keys():
-        cmd_list[0] = cmd_list[0] if config_dict["type"] == "libcamera-vid" else "libcamera-still"
-    else:
-        pass
-    cmd_list.append("--height")
-    cmd_list.append(event_height)
-    cmd_list.append("--width")
-    cmd_list.append(event_width)
-    if cmd_list[0] == "libcamera-vid":
-        cmd_list.append("--framerate")
-        cmd_list.append(config_dict["framerate"] if type(config_dict["framerate"])==str else str(config_dict["framerate"]))
-    else:
-        pass
-    cmd_list.append("-t")
-    cmd_list.append(event_duration)
-    if (config_dict["focus"] == "continue"):
-        pass
-        #cmd_list.append("--continue-autofocus")
-    if (config_dict["preview"]=="qt-preview"):
-        cmd_list.append("--qt-preview")
-    root_path_str = config_dict["root_path"]
-    video_path_str = config_dict["raw_path"]
-    filename_str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
-    cmd_list.append("-o")
-    #cmd_list.append(root_path_str+"/"+video_path_str+"/"+filename_str+".h264")
-    if cmd_list[0] == "libcamera-vid":
-        cmd_list.append(filename_str + ".h264")
-    else:
-        cmd_list.append(filename_str + ".jpg")
-    print(cmd_list)
-    cmd_str = " ".join(cmd_list)
-    #print(cmd_str)
-    return CommandInstance(payload=cmd_str,type="bash_cmd") #,config=config_dict)
 
 
 def CaptureVideo(commandInstance) -> (str,str) or None:
@@ -180,6 +96,11 @@ def CaptureVideo(commandInstance) -> (str,str) or None:
         #return (filename_str,dest_path)
     return
 
+
+def cameraDist2lensDist(camDist:float) -> float:
+    lensDist = camDist / 100
+    lensDist = 1 / lensDist if lensDist != 0 else 100000
+    return lensDist
 
 
 

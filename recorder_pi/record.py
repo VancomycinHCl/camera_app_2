@@ -13,6 +13,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 # import PyQt5.QtWidgets.QGridLayout
 
 
+#lkdsjfl;kasdjf;lkjasd;lfkjas;dlkjf;lsdkajf;lksdvc;lknds;fj;sdalkjfl;ksdajflksdajfoi
+#kasdjhfl;jjsdhalfkjsdlk;jflsdjflkjhasdlfkh;sldkajflsdajhfkljhsdlkfjhasdlkjfhlaksjdhf
+
 class DelegateTimeEdit_startTimeBox(QtWidgets.QStyledItemDelegate):
     def __init__(self):
         super(DelegateTimeEdit_startTimeBox, self).__init__()

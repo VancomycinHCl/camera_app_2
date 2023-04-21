@@ -8,10 +8,12 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import QTimer
 import driver.camera_test as A
-import log_generate as log
+import log_generate
 from datetime import datetime
-from recorder_pi.event_table.timetable import TimeTable
-
+try:
+    from recorder_pi.event_table.timetable import TimeTable
+except:
+    from event_table.timetable import TimeTable
 
 class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -20,7 +22,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.recordImme_flag = False
         self.showPreview_flag = False
         self.autoConversion_flag = False
-        self.logger = log.Log_Init()
+        self.logger = log_generate.logger
         self.settings = {
             "H264_Folder": None,
             "MP4_Folder": None,
@@ -107,15 +109,13 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.settings = self.settings | camera_config
         self.settings = self.settings | other_config
         self.settings = self.settings | path_config
-        #
-        self.autoConversion_flag = bool(other_config["auto_convert"])
-        #
         self.HeightBox.setValue(int(self.settings["height"]))
         self.WeightBox.setValue(int(self.settings["width"]))
         self.FPS.setValue(int(self.settings["framerate"]))
+        self.spinBox_cameraDistance.setValue(float(self.settings["lens-position"]))
         self.filePath_H264.setText(path_config["root_path"] + "/" + path_config["raw_path"])
         self.filePath_H264.home(False)
-        pass
+
 
     def Save_Setting_File(self):
         self.settings["iniFile"] = QtWidgets.QFileDialog.getOpenFileName()
@@ -361,7 +361,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             logging.debug("lens distance=%f"%(lens_distance))
             self.settings['lens-position'] = lens_distance
         elif not self.checkBox_manualFocus.isChecked():
-            logging.debug("Manual focus status changed into True! Auto Focus!")
+            logging.debug("Manual focus status changed into False! Auto Focus!")
             self.settings['lens-position'] = None
 
 

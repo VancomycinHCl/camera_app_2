@@ -1,8 +1,13 @@
 #!/bin/python3
 from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSlot,QTime
-from recorder_pi.event_table.cam_factory import *
-from recorder_pi.event_table.table_decoder import  *
+try:
+    from recorder_pi.event_table.cam_factory import *
+    from recorder_pi.event_table.table_decoder import  *
+except:
+    from event_table.cam_factory import *
+    from event_table.table_decoder import *
+
 
 """
 这些是您的Dissdafadfcord账号 ********32@**.**.***的备用码。请妥善保管！

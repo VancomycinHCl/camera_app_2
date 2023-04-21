@@ -3,10 +3,16 @@ import sys
 import configparser
 import time
 from datetime import datetime
+try:
+    import  recorder_pi.log_generate as log_generate
+except:
+    import log_generate as log_generate
 import time
+
 # from picamera2 import Picamera2
 # from picamera2.encoders import H264Encoder
 
+logger_local = log_generate.logger
 class CommandInstance():
     def __init__(self,type,payload):
         self.type = type
@@ -25,6 +31,7 @@ def readConfig(file):
     other_config = {}
     for i in cam_value:
         camera_config[i[0]] = i[1]
+        logger_local.debug(f"{i[0]}={i[1]}")
     for i in path_value:
         path_config[i[0]] = i[1]
     for i in other_value:
@@ -91,7 +98,6 @@ def generateCommand_str(config_dict):
 def CaptureVideo(commandInstance) -> (str,str) or None:
     """
     Introduction: Capture the video by executing bash command and return the file path.
-
     :param commandInstance: Class commandinstance
     :return: string tuple, first is the current filename and the second is the path
     """

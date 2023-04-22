@@ -1,21 +1,11 @@
-# Standard Readme
+# Raspberry Pi based time-lapse camera
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+> The tool is originally developed on the raspberry Pi, aiming at observing of tiny aquatic animal (gammarus) and save the result as video recording recurring
+> 
+> The whole project is based on PyQt5 and utilize bash command execute directly to complete recording.
 
-A standard style for README files
 
-Your README file is normally the first entry point to your code. It should tell people why they should use your module, how they can install it, and how they can use it. Standardizing how you write your README makes creating and maintaining your READMEs easier. Great documentation takes work!
-
-This repository contains:
-
-1. [The specification](spec.md) for how a standard README should look.
-2. A link to [a linter](https://github.com/RichardLitt/standard-readme-preset) you can use to keep your README maintained ([work in progress](https://github.com/RichardLitt/standard-readme/issues/5)).
-3. A link to [a generator](https://github.com/RichardLitt/generator-standard-readme) you can use to create standard READMEs.
-4. [A badge](#badge) to point to this spec.
-5. [Examples of standard READMEs](example-readmes/) - such as this file you are reading.
-
-Standard Readme is designed for open source libraries. Although it’s [historically](#background) made for Node and npm projects, it also applies to libraries in other languages and package managers.
-
+---
 
 ## Table of Contents
 
@@ -30,14 +20,8 @@ Standard Readme is designed for open source libraries. Although it’s [historic
 - [Contributing](#contributing)
 - [License](#license)
 
-## Background
-
-> The tool is originally developed on the raspberry Pi, aiming at observing of tiny aquatic animal (gammarus) and save the result as video recording recurring
-> 
-> The whole project is based on PyQt5 and utilize bash command execute directly to complete recording.
 
 ## Install
-
 
 ```sh
 cd ~

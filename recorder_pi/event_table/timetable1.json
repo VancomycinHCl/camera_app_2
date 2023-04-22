@@ -6,7 +6,8 @@
         "width": "1920",
         "H264_Folder": "--width",
         "type": "libcamera-vid",
-        "enable": "true"
+        "enable": "true",
+        "framerate":"25"
     },
     "1": {
         "startTime": "17:50:00",

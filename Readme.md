@@ -5,7 +5,6 @@
 > The whole project is based on PyQt5 and utilize bash command execute directly to complete recording.
 
 
----
 
 ## Table of Contents
 

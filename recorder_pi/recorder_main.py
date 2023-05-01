@@ -172,7 +172,11 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 self.applySettings()
                 return
         else:
-            self.threadTimer_checkNextDay.stop()
+            try:
+                self.threadTimer_checkNextDay.stop()
+            except Exception as E:
+                logging.info(E)
+                logging.info("The daily checking timer is not started, so there is no necessary to stop.")
 
 
     def recordEachHour_disableImmeButton(self):
@@ -187,6 +191,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             # timeRemain_msec = (59 - timePast_minute) * 60 * 1000
             # self.threadTimer.start(timeRemain_msec)
         else:
+            self.CheckScheduludeAndExecute()
             try:
                 self.threadTimer.stop()
             except Exception as E:

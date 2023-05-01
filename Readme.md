@@ -61,4 +61,4 @@ sudo chmod u+x ./run.sh
 
 ## Contributor
 
-* 
+* VancomycinHCl - 2112484232@qq.com

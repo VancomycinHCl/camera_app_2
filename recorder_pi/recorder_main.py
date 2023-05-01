@@ -2,18 +2,19 @@ import logging
 import os
 
 import PyQt5.QtCore, PyQt5.QtWidgets
-
 from record import *
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtCore import QTimer
 import driver.camera_test as A
-import log_generate
+import recorder_pi.log_generate as log_generate
 from datetime import datetime
 try:
     from recorder_pi.event_table.timetable import TimeTable
 except:
     from event_table.timetable import TimeTable
+
+logger = log_generate.cameraLogger()
 
 class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -22,7 +23,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.recordImme_flag = False
         self.showPreview_flag = False
         self.autoConversion_flag = False
-        self.logger = log_generate.logger
+        self.logger = logger
         self.settings = {
             "H264_Folder": None,
             "MP4_Folder": None,
@@ -43,6 +44,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.timeTable_cusMod.ReadTableFromJson()
         self.refreshUIFromModel()
         # self.tableWidget_timeTable.setCellWidget(0,0,)
+        self.logger.warning("THIS VERSION IS AN UNSTABLE ONE")
 
     @property
     def Setting(self) -> dict:
@@ -54,28 +56,31 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     def applySettings(self) -> bool:
         logging.info("Apply Setting Function Executed!")
-        print(self.WeightBox.text())
-        time_min = int(self.timeEdit_duration.time().toPyTime().minute)
-        time_sec = int(self.timeEdit_duration.time().toPyTime().second)
-        fps = int(self.FPS.value())
-        width = int(self.WeightBox.value())
-        height = int(self.HeightBox.value())
-        filePath = self.filePath_H264.text()
-        print(width, height, fps, filePath)
-        self.settings["width"] = width
-        self.settings["height"] = height
-        self.settings["framerate"] = fps
-        self.settings["H264_folder"] = filePath
-        if (time_min * 60 + time_sec) >= 59 * 60:
-            QMessageBox.warning(self,
-                                "Time Out Warning!",
-                                "Your time setting has Larger than potential recording period, which will cause access conflict on the device. Please set the video duration smaller than 1 hour")
-            logging.warning("An Unsuitable Time Duration was set! Please set another proper duration!")
-            return False
-        else:
-            self.settings["duration"] = str((time_sec + time_min * 60) * 1000)
-        print(self.settings["duration"])
-        return True
+        if not self.checkBox_recoedEachHour.checkState():
+            print(self.WeightBox.text())
+            time_min = int(self.timeEdit_duration.time().toPyTime().minute)
+            time_sec = int(self.timeEdit_duration.time().toPyTime().second)
+            fps = int(self.FPS.value())
+            width = int(self.WeightBox.value())
+            height = int(self.HeightBox.value())
+            filePath = self.filePath_H264.text()
+            print(width, height, fps, filePath)
+            self.settings["width"] = width
+            self.settings["height"] = height
+            self.settings["framerate"] = fps
+            self.settings["H264_folder"] = filePath
+            if (time_min * 60 + time_sec) >= 59 * 60:
+                QMessageBox.warning(self,
+                                    "Time Out Warning!",
+                                    "Your time setting has Larger than potential recording period, which will cause access conflict on the device. Please set the video duration smaller than 1 hour")
+                logging.warning("An Unsuitable Time Duration was set! Please set another proper duration!")
+                return False
+            else:
+                self.settings["duration"] = str((time_sec + time_min * 60) * 1000)
+            print(self.settings["duration"])
+            return True
+        elif self.checkBox_recoedEachHour.checkState():
+            return True
 
     def openOutputH264File(self):
         self.settings['H264_Folder'] = PyQt5.QtWidgets.QFileDialog.getExistingDirectory()
@@ -123,6 +128,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
 
     def MergeSettingsFromEvent(self,eventReference_dict:dict):
         # print(eventReference_dict)
+        self.logger.debug(str(eventReference_dict))
         H264_event = eventReference_dict["H264_Folder"]
         width_event = eventReference_dict["width"]
         height_event = eventReference_dict["height"]
@@ -139,7 +145,9 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.settings["height"] = height_event
         self.settings["duration"] = duration_event
         self.settings["type"] = type_event
-        print("Merge setting dict:",self.settings)
+        # print("Merge setting dict:",self.settings)
+        self.logger.info(f"Merge setting dict %s"%(self.settings))
+
 
 
     # 这个函数负责定时检查事件，如果今天还有事儿就自动装载表格事件进左边面板，并且把设置立即应用过来
@@ -206,7 +214,10 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
                 self.threadTimer.stop()
             except Exception as E:
                 print(E)
-        os.system("sudo cp -r " + "/home/pi/camera_app/output/raw_video/*.h264" + " /media/pi/CFBA-4424/")
+        try:
+            os.system("sudo cp -r " + "/home/pi/camera_app/output/raw_video/*.h264" + " /media/pi/CFBA-4424/")
+        except Exception as E:
+            self.logger.error(E)
 
     def applyTable(self):
         self.timeTable_cusMod.RefreshFromUI(self.tableWidget_timeTable.model())
@@ -361,7 +372,7 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             logging.debug("lens distance=%f"%(lens_distance))
             self.settings['lens-position'] = lens_distance
         elif not self.checkBox_manualFocus.isChecked():
-            logging.debug("Manual focus status changed into False! Auto Focus!")
+            logging.info("Manual focus status changed into False! Auto Focus!")
             self.settings['lens-position'] = None
 
 

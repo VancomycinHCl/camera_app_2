@@ -1,6 +1,6 @@
 #!/bin/python3
 import logging
-from datetime import datetime,date
+from datetime import datetime
 from colorama import Fore,Style
 import colorlog
 
@@ -26,51 +26,65 @@ class ColoredFormatter(logging.Formatter):
             record.levelname = levelname_color
         return super().format(record)
 
-def Log_Init(loggerName="default",logName="test",filePath="../log/") ->  logging.StreamHandler:
-    today = datetime.now().date().strftime("%Y-%m-%d")
-    fileName = logName+"_"+today+".log"
-    fileComplete = filePath+fileName
-    logging.basicConfig(level=logging.DEBUG,
-                        format='%(asctime)s %(filename)s %(funcName)20s line:%(lineno)d [%(levelname)s] %(message)s',
-                        datefmt='%Y-%m-%d %a %H:%M:%S',
-                        filename=fileComplete,
-                        filemode='a')
-    console = logging.StreamHandler()
-    console.setLevel(logging.DEBUG)
-    formatter = ColoredFormatter('%(asctime)s %(filename)s %(funcName)s() line:%(lineno)d [%(levelname)s] %(message)s')
-    console.setFormatter(formatter)
-    logging.getLogger('').addHandler(console)
-    logging.debug(f'Log System Started')
-    return console
+# def Log_Init(loggerName="default",logName="test",filePath="../log/") ->  logging.StreamHandler:
+#     today = datetime.now().date().strftime("%Y-%m-%d")
+#     fileName = logName+"_"+today+".log"
+#     fileComplete = filePath+fileName
+#     logging.basicConfig(level=logging.DEBUG,
+#                         format='%(asctime)s %(filename)s %(funcName)20s line:%(lineno)d [%(levelname)s] %(message)s',
+#                         datefmt='%Y-%m-%d %a %H:%M:%S',
+#                         filename=fileComplete,
+#                         filemode='a')
+#     console = logging.StreamHandler()
+#     console.setLevel(logging.DEBUG)
+#     formatter = ColoredFormatter('%(asctime)s %(filename)s %(funcName)s() line:%(lineno)d [%(levelname)s] %(message)s')
+#     console.setFormatter(formatter)
+#     logging.getLogger('').addHandler(console)
+#     logging.debug(f'Log System Started')
+#     return console
 
 
 class cameraLogger:
     _instance = None
-    def __new__(cls, loggerName="default", logName="test", filePath="../log/"):
-        if not cls._instance:
+    def __new__(cls, loggerName="", logName="test", filePath="../log/"):
+        # print(cls._instance)
+        if cls._instance == None:
             cls._instance = super().__new__(cls)
             cls._instance.logger = logging.getLogger(loggerName)
             cls._instance.logger.setLevel(logging.DEBUG)
             today = datetime.now().date().strftime("%Y-%m-%d")
             fileName = logName+"_"+today+".log"
             fileComplete = filePath+fileName
-            file_handler = logging.FileHandler(fileComplete)
+            file_handler = logging.FileHandler(fileComplete,mode="a+")
             file_handler.setLevel(logging.DEBUG)
             formatter = logging.Formatter('%(asctime)s %(filename)s %(funcName)20s line:%(lineno)d [%(levelname)s] %(message)s')
             file_handler.setFormatter(formatter)
             console = logging.StreamHandler()
-            console.setLevel(logging.DEBUG)
+            # console.setLevel(logging.DEBUG)
             colored_formatter = ColoredFormatter('%(asctime)s %(filename)s %(funcName)s() line:%(lineno)d [%(levelname)s] %(message)s')
             console.setFormatter(colored_formatter)
+            console.name=""
             cls._instance.logger.addHandler(file_handler)
             cls._instance.logger.addHandler(console)
             cls._instance.logger.info('Log System Started')
+            # print(cls._instance)
+        else:
+            # print("Branch B")
+            # print(cls._instance)
+            pass
         return cls._instance.logger
 
-logger = cameraLogger()
+# global logger
+# logger = cameraLogger()
+
+
+
 
 if __name__ == "__main__":
+    logger = cameraLogger()
     logger.critical("dsf")
+    logger.error("hjgjh")
+    logger.warning("ghhg")
     pass
     # #logging.critical('Hwloooo')
     # logger1 = cameraLogger()

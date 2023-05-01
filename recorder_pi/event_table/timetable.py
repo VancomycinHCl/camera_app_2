@@ -9,6 +9,14 @@ except:
     from event_table.table_decoder import *
 
 
+try:
+    import recorder_pi.log_generate as log_generate
+    # from recorder_pi.log_generate import logger
+except:
+    import log_generate
+
+local_logger = log_generate.cameraLogger()
+
 """
 这些是您的Dissdafadfcord账号 ********32@**.**.***的备用码。请妥善保管！
 
@@ -253,31 +261,39 @@ class TimeTable(QtCore.QObject):
             idx_cur = model.index(i, 2)
             data = model.data(idx_cur)
             rowinfo["duration_int"] = data
-            print("rowinfo[\"duration_int\"]",rowinfo["duration_int"])
             idx_cur = model.index(i, 3)
             data = model.data(idx_cur)
             rowinfo["Enable_str"] = data
             idx_cur = model.index(i, 4)
             data = model.data(idx_cur)
             rowinfo["Config_str"] = data
-            print("rowinfo[\"Config_str\"]=",rowinfo["Config_str"])
+
             block1.event = rowinfo["Event"] if rowinfo["Event"] != None else "libcamera-still"
             block1.startTime =  rowinfo["StartTime_qtime"].toPyTime()
             block1.configDict = rowinfo["Config_str"] if rowinfo["Config_str"] != None else "libcamera-still"
             block1.enable = True if rowinfo["Enable_str"] == "On" else False
             block1.duration = rowinfo["duration_int"]
             eventTable_.append(block1)
-            print(block1.configuration)
-            print(block1.duration)
-            print(block1.enable)
-            print(block1.configDict)
-            print(str(block1))
+            # print(i,"rowinfo[\"duration_int\"]", rowinfo["duration_int"])
+            # print(i,"rowinfo[\"Config_str\"]=", rowinfo["Config_str"])
+            # print(block1.configuration)
+            # print(block1.duration)
+            # print(block1.enable)
+            # print(block1.configDict)
+            # print(str(block1))
+            local_logger.debug(f"record[%d] -> rowinfo[\"duration_int\"]=%s" % (i, rowinfo["duration_int"]))
+            local_logger.debug(f"record[%d] -> rowinfo[\"Config_str\"]=%s" % (i, rowinfo["Config_str"]))
+            local_logger.debug(f"record[%d] -> block.configDict=%s" % (i,block1.configDict))
+            # local_logger.debug()
+
         self.setProperty("eventTable_",eventTable_)
         if len(eventTable_) != 0:
-            print("adsfdsf", str(self.property("eventTable_")[0]))
+            # print("adsfdsf", str(self.property("eventTable_")[0]))
+            local_logger.info("Refresh From Qt to Table found events")
             return
         else:
-            print("No event in the new list.")
+            # print("No event in the new list.")
+            local_logger.warning("Refresh From Qt to Table found no events")
 
     def RefreshTableFromFile(self):
         self.enableUIRefresh.emit()
@@ -288,6 +304,10 @@ class TimeTable(QtCore.QObject):
         eventTable_.append(timeBlock)
         self.setProperty("eventTable_", eventTable_)
 
+
+    # 这里加一个补丁，补丁的地方主要在于：nextEventDict中的duration接口是秒计数
+    # 而我们实际所需的是毫秒计数，用于生成录像指令的
+    # 所以为了保障接口连贯性，只能在参数merge这一步做录像时间单位转换
     def GetNextEvent(self) -> tuple:#-> tuple[dict,int]:
         sortTimeLeft = []
         eventTable_ = self.property("eventTable_")
@@ -300,16 +320,18 @@ class TimeTable(QtCore.QObject):
         if nextEventIdx != -1:
             timeleft = eventTable_[nextEventIdx].timeleft
             nextEventDict = eventTable_[nextEventIdx].configDict
-            return (nextEventDict,timeleft)
+            nextEventDict["duration"] = str(int(nextEventDict["duration"])*1000)
+            return nextEventDict, timeleft
         else:
-            return (None,None)
+            return None,None
 
     def __MinTimeLeft_idx(self, timeList:list, useEnable:bool=False) -> int:
         # 数据结构是 [ (time_int,enable_bool),...... ]
         try:
             min_new_idx,min_new = min(enumerate(filter(lambda x:x[0]>0 and x[1],timeList)),key=lambda x:x[1][0])
             min_new_idx = timeList.index(min_new)
-            print(min_new,min_new_idx)
+            # print(min_new,min_new_idx)
+            local_logger.debug(f"%s,%s"%(min_new,min_new_idx))#,exc_info=True)
             return min_new_idx
         except Exception as E:
             print(E)

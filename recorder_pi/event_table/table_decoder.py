@@ -1,5 +1,13 @@
 import json
 from datetime import datetime,date,timedelta,time
+try:
+    import recorder_pi.log_generate as log_generate
+    # from recorder_pi.log_generate import logger
+except:
+    import log_generate
+    # import log_generate.logger
+# local_logger = log_generate.logger
+local_logger = log_generate.cameraLogger()
 
 EVENT_KEY = "event"
 START_TIME_KEY = "startTime"
@@ -126,7 +134,8 @@ def json_dict2timeblock_dict(jsonKeyVal:str,jsonDictVal:dict) -> dict or None:
         framerate = jsonDictVal["framerate"]
         returnDict[TIMEBLOCK_KET_FRAMERATE]   = int(framerate)
     except Exception as E:
-        print(E)
+        # print(E)
+        local_logger.warning(f"{E} is not found in the key number [{jsonKeyVal}] from json timetable.")#,exc_info=True)
         returnDict[TIMEBLOCK_KET_FRAMERATE]   = 25
     try:
         enable = jsonDictVal["enable"]
@@ -138,7 +147,7 @@ def json_dict2timeblock_dict(jsonKeyVal:str,jsonDictVal:dict) -> dict or None:
         print("record %s has invalid enable option"%(jsonKeyVal))
         returnDict[TIMEBLOCK_KET_ENABLE] = True
     try:
-        output = jsonDictVal["output"]
+        output = jsonDictVal[TIMEBLOCK_KET_OUTPUT]
         returnDict[TIMEBLOCK_KET_OUTPUT] = output
     except Exception as E:
         print(E)

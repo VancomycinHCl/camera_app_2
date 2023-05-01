@@ -9,10 +9,13 @@ except:
     import log_generate as log_generate
 import time
 
+
+
 # from picamera2 import Picamera2
 # from picamera2.encoders import H264Encoder
 
-logger_local = log_generate.logger
+# logger_local = log_generate.logger
+logger_local = log_generate.cameraLogger()
 class CommandInstance():
     def __init__(self,type,payload):
         self.type = type

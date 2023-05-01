@@ -1,5 +1,15 @@
 import re
 
+try:
+    import recorder_pi.log_generate as log_generate
+    # from recorder_pi.log_generate import logger
+except:
+    import log_generate
+    # import log_generate.logger
+# local_logger = log_generate.logger
+local_logger = log_generate.cameraLogger()
+
+
 # 定义抽象工厂接口
 class CameraFactory:
     def create_still(self):
@@ -137,11 +147,19 @@ class LibCameraVid:
         if "type" in dictIn_keys:
             self.type = dictIn["type"]
 
+
+    """
+    There is some question in the following code. The main reaction to the function is the RE macher doesn't work from 
+    the given string reference.  
+    """
     def setRefDict(self,refStr:str) -> None:
         # "libcamera-still -o dsaf.h264 -t 1000 --width 1920 --height 1080 --framerate 25"
         pattern = r"(?=(.*?-t\s+(\d+)))?(?=(.*?--width\s+(\d+)))?(?=(.*?--height\s+(\d+)))?(?=(.*?-o\s+(\S+)))?(?=(.*?--framerate\s+(\d+)))?"
         match = re.match(pattern, refStr)
-        print(match)
+        # print(match)
+        local_logger.debug(refStr)
+        local_logger.debug(match)
+
         if match:
             self._duration = int(match.group(2)) if match.group(2) != None else self._duration
             self.width = int(match.group(4)) if match.group(4) != None else self.width

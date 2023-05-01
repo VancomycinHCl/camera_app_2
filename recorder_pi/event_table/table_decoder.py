@@ -1,3 +1,8 @@
+# file: table_decoder.py
+# author: 2112484232@qq.com
+# version: 0.2.0
+# description: File interface between event table and json file
+
 import json
 from datetime import datetime,date,timedelta,time
 try:

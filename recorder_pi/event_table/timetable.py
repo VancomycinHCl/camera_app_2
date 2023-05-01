@@ -1,4 +1,10 @@
 #!/bin/python3
+# file: timetable.py
+# author: 2112484232@qq.com
+# version: 0.2.0
+# description: Customized event table and decorator (timetable and timeblock)
+
+
 from PyQt5 import QtCore
 from PyQt5.QtCore import pyqtSlot,QTime
 try:
@@ -17,20 +23,6 @@ except:
 
 local_logger = log_generate.cameraLogger()
 
-"""
-这些是您的Dissdafadfcord账号 ********32@**.**.***的备用码。请妥善保管！
-
-hhd5-4cnx 
-agop-u5p3 
-y2de-syi4 
-bj5s-wwh9 
-g8ul-o407 
-tslx-cvyt 
-f73x-sra5 
-r0zr-riv7 
-vwcc-v3ha 
-fz2k-81bx 
-"""
 
 CURRENT_COLUM_CNT = 5
 

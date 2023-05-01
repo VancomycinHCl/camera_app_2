@@ -1,3 +1,9 @@
+# file: recorder_main.py
+# author: 2112484232@qq.com
+# version: 0.2.0
+# description: Core of camera event definition
+
+
 import re
 
 try:

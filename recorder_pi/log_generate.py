@@ -1,4 +1,10 @@
 #!/bin/python3
+
+# file: recorder_main.py
+# author: 2112484232@qq.com
+# version: 0.2.0
+# description: Logger for both colourful console output and log file
+
 import logging
 from datetime import datetime
 from colorama import Fore,Style

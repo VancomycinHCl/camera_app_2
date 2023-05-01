@@ -1,3 +1,9 @@
+# file: camera_test.py
+# author: 2112484232@qq.com
+# version: 0.2.0
+# description: Command generator
+
+
 import os
 import sys
 import configparser

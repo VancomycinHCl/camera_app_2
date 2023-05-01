@@ -8,10 +8,25 @@
 
 ## Table of Contents
 
+- [Requirement](#Requirement)
 - [Install](#install)
 - [Usage](#usage)
-- [License](#license)
+- [Version History](#VersionHistory)
 
+
+
+
+## Requirement
+
+#### Software
+
+> Raspberry Pi OS Bullseye (with desktop), Later than 2023-02
+
+#### Hardware
+
+> 1. Raspberry Pi 4B
+> 
+> 2. RaspCamera v3 NoIR
 
 ## Install
 
@@ -35,8 +50,15 @@ sudo chmod u+x ./run.sh
 ./run.sh
 ```
 
+## Version History
 
+* 0.2
+    * Various bug fixes, especially in colorful log generator
+    * See [commit change]() or See [release history]()
+* 0.1
+    * Initial Release
+    * Add timetable function, so that users can set record event freely.
 
-## License
+## Contributor
 
-[MIT](LICENSE) © Richard Littauer
+* 

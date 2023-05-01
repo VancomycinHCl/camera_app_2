@@ -88,11 +88,6 @@ class MyWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             self.filePath_H264.setText(self.settings['H264_Folder'])
         print(self.settings['H264_Folder'])
 
-    def openOutputMP4File(self):
-        self.settings['MP4_Folder'] = PyQt5.QtWidgets.QFileDialog.getExistingDirectory()
-        if self.settings['MP4_Folder'] != "":
-            self.filePath_MP4.setText(self.settings['MP4_Folder'])
-        print(self.settings['MP4_Folder'])
 
     def Open_Setting_File(self):
         self.settings["iniFile"] = QtWidgets.QFileDialog.getOpenFileName()[0]
